@@ -23,7 +23,7 @@ print( "*******************正在更新配置文件，请稍后*****************
 print( "*                                                             *").decode('utf-8').encode(type)
 print( "***************************************************************")
 
-url = 'http://121.42.170.72:8080/Shadowsocks/getAccount'
+url = 'http://your url:ort/path/getAccount'
 data = requests.get(url)
 beans=json.loads(data.text)
 file=open("gui-config.json","w+")
